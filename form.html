@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Create Form Challenge:</h1>
+    
+        <div class="form">
+            <h3>Please Share your personal details here:</h3>
+            <form action="/submit" method="post">
+                <fieldset>
+                  <legend border="1">Personal Information</legend>
+              
+                  <label for="fname">First Name:</label>
+                  <input type="text" id="fname" name="firstname"><br><br>
+              
+                  <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lastname"><br><br>
+              
+                  <label for="date">Birthday</label>
+                  <input type="date" id="date" name="date"><br><br>
+              
+                </fieldset>
+              <br>
+
+                <h3>Can you tell us a little more ?</h3>
+
+                <fieldset>
+                  <legend>Further Information</legend>
+
+                  <label for="favcolor">Favorite Color:</label>
+                  <input type="color" id="favcolor" name="favcolor"><br><br>
+              
+                  <label for="pet">What's your favorite pet ?</label> <br><br>
+                  <input type="text" id="pet" name="pet"><br><br>
+              
+                  <label for="Like">Do you like:</label> <br><br>
+                  <input type="radio" name="hobby"> Mountain 
+
+                  <input type="radio" name="hobby"> beaches
+              
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
